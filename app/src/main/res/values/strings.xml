@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">THE BUDGETINATOR</string>
+    <string name="content_sign_in">SignIn</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_income_info">IncomeInfo</string>
+    <string name="title_activity_monthly_compute">MonthlyCompute</string>
+    <string name="title_activity_percentage">Percentage</string>
+</resources>

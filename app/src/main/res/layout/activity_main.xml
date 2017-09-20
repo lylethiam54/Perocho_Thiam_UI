@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thiam.projectui.MainActivity">
+
+    <Button
+        android:id="@+id/SignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:onClick="callSignIn"
+        android:fontFamily="sans-serif-condensed"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="414dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginEnd="68dp"
+        android:layout_alignBaseline="@+id/SignUp"
+        android:layout_alignBottom="@+id/SignUp"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:onClick="callSignUp"
+        android:fontFamily="sans-serif-condensed"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="414dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginBottom="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE BUDGETINATOR"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="30sp"
+        android:layout_marginTop="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/SignIn"
+        android:layout_alignEnd="@+id/SignIn" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/logo"
+        android:scaleType="fitCenter"
+
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
